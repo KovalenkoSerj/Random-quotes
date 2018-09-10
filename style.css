@@ -1,0 +1,48 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(image/background.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#quoteButton {
+	width: 100px;
+	height: 73px;
+	margin: 0 auto;
+	display: block;
+	outline: none;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#quoteButton:hover {
+	transform: rotatez(360deg);
+	transition: 0.8s;
+	
+}
+
+#quoteResult {
+	margin-top: 10%;
+	margin: 0 auto;
+	border-radius: 10px;
+	scroll-behavior: smooth;
+	height: 75px;
+	width: 500px;
+	padding: 5px;
+	font-family:  "Microsoft JhengHei UI Light", sans-serif;
+	font-weight: 900;
+	
+}
+.textArea{
+	text-align: center;
+	margin-top: 10%;
+	
+}
+
